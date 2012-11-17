@@ -2,7 +2,7 @@
 
 = Known issues =
 
-  * When compiling a project with this ANE the following warning appears. It seems it can be safely ignored and the project will work fine anyway. However, it would be appreciated if someone could help solving it, if possible:
+  * When compiling a project with this ANE the following warning may appear. It seems it can be safely ignored and the project will work fine anyway. However, it would be appreciated if someone could help solving it, if possible:
 
  "ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in `_`llvm`_`unwind from AOTBuildOutput-0.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no`_`pie"
 
